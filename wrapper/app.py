@@ -11,7 +11,6 @@ app.config[
 ] = "mysql://root:19630821@localhost:3306/store_monitoring"
 
 db.init_app(app)
-
 app.register_blueprint(controller_bp)
 
 with app.app_context():
